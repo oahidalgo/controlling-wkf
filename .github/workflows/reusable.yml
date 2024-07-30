@@ -4,8 +4,8 @@ on:
     inputs:
       artifact-name:
         description: 'Name of the artifact to download'
-        required: true
-        default: 'dist'
+        required: false
+        default: dist
         type: string
 jobs:
   deploy:
